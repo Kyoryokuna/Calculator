@@ -5,19 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <button id="clearBtn">clear</button>
     <div id="frame">
         <div id="main-frame">
             <div id="output-container">
-
+                <p id="output">Hello</p>
             </div>
-            <div id="numbers-pad">
-
+            <div id="numbers-pad" class="numberBtns">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>0</button>
             </div>
         </div>
-        <div id="right-frame">
-
+        <div id="right-frame" class="mathBtns">
+            <button id="addBtn">+</button>
+            <button id="subtractBtn">-</button>
+            <button id="multiplyBtn">x</button>
+            <button id="divideBtn">÷</button>
+            <button id="calculateBtn">=</button>
         </div>
     </div>
 </body>
